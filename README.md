@@ -1,7 +1,7 @@
 # Drowsiness-Detection-using-Deep-Learning
 CSCE 689 Project
 
-## Project consists of three ipython files for detecting yawning.
+#### Project consists of three ipython files for detecting yawning.
 
 1. Feature Extraction.ipython: 
 Coded to prepare the training data. It builds feature files from the videos used for training. Training videos are labelled from 1.avi to 41.avi which are stored to my google drive folder. It outputs:
