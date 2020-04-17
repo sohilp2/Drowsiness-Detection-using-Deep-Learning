@@ -24,7 +24,7 @@ It takes input the video in the avi format and you can use the custom name of yo
 
 ##### 4. Transfer Learning.ipython:
 It takes as input the Labels_final.csv and the folders containing the train and test(validation) images (with appropriate names of folder).
-It outputs the trained transfer learning model "vgg16_2.h5"
+It outputs the trained transfer learning model "vgg16_2.h5"-- already shared to professor during last submission
 
 ##### 5. Ensemble.ipython:
 It takes as input the the processed input and output data as dumped by model.ipython. It runs the ensemble of 8 models from scikit learn and takes input of train/test probabilities from the model.ipython as it is the 9th ensemble member. It dumps the 8 models along with the ninth blending function (blend.h5). This is used in test.ipython.
