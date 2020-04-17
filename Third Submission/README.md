@@ -1,5 +1,5 @@
 
-# Second Submission
+# Third Submission
 ##### 1. Feature Extraction.ipython: 
 Coded to prepare the training data. It builds feature files from the videos used for training. Training videos are labelled from 0.avi to 58.avi which are stored to my google drive folder. It outputs:
 'Data.npy': Complete landmark information from all videos
