@@ -18,7 +18,7 @@ drowsiness (1 for drowsiness and 0 otherwise). This ipython file shapes the data
 
 ##### 3. test.ipython: 
 This can be used for testing the model exported from Model.ipython. Here, it also take what model you wish to run (NN/TL) where NN is the
-developed neural network while TL is the transfer learning model with VGG-16.
+ensemble while TL is the transfer learning model with VGG-16.
 It publishes the time-label graph as "Test_g-NN/TL.png" and the data as "timeLabel_testg TL/NN.json" where g is a number you can put at the begining to identify the files. 
 It takes input the video in the avi format and you can use the custom name of your video along after you mention g value.
 
