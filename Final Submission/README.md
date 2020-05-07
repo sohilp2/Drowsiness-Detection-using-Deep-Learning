@@ -1,4 +1,4 @@
-# Third Submission
+# Final Submission
 ##### 1. Feature Extraction.ipython: 
 Coded to prepare the training data. It builds feature files from the videos used for training. Training videos are labelled from 0.avi to 58.avi which are stored to my google drive folder. It outputs:
 'Data.npy': Complete landmark information from all videos
@@ -32,6 +32,6 @@ It outputs the trained transfer learning model "vgg19_2.h5".
 It takes as input the Labels_final.csv and the folders containing the train and test(validation) images (with appropriate names of folder).
 It outputs the trained transfer learning model "rsn.h5".
 
-##### 5. Ensemble.ipython:
+##### 7. Ensemble.ipython:
 It takes as input the the processed input and output data as dumped by model.ipython. It runs the ensemble of 8 models from scikit learn, the LSTM model trained in model.h5, and the 3 transfer learning model. It dumps the 8 models along with the ninth blending function (blend.h5). This is used in test.ipython.
 
